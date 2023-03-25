@@ -1,0 +1,58 @@
+<html>
+   <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.navbar {
+  overflow: hidden;
+  background-color: #1045;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px 25px;
+  text-decoration: none;
+}
+</head>
+  </style>
+  
+<body style="background-color:beige;">
+   <div class="navbar">
+  <a href="/email"><u>Email Address</u></a>
+  <a href="/time"><u>Schedule</u></a>
+  <a href="/info"><u>Info about code</u></a>
+</div>
+  <form name = "time", action = '/time', method = "post">
+<p>
+Given you have the time of the Professor you want to look up, please indicate the time in regards to military time. For example instead of inputting 9 am, input 09 instead with a 0 at the start for morning hours, as that's how the program will know it is a morning class. To give more reference I will give a list of military hours from the standard time to make it easier to input, starting after 12pm. Also no need to add am or pm to the number.  
+</p>
+  <p>
+<ul>
+  <li>1 pm = 13</li>
+  <li>2 pm = 14</li>
+  <li>3 pm = 15</li>
+  <li>4 pm = 16</li>
+  <li>5 pm = 17</li>
+  <li>6 pm = 18</li>
+  <li>7 pm = 19</li>
+  <li>8 pm = 20</li>
+  <li>9 pm = 21</li>
+  <li>10 pm = 22</li>
+</ul>
+    
+  </p>
+    <p>
+  <input type = "text" name = "n_time" placeholder = "enter a time"
+
+  <p>
+    <input type = "submit"  value = "Submit"/ >
+      
+  </p>
+  </form>
+
+  
+</body>
+  
+</html>

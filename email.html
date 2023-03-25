@@ -1,0 +1,42 @@
+<html>
+   <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.navbar {
+  overflow: hidden;
+  background-color: #1045;
+}
+/* this allowed to have the bar links above the website to make it look more like a website.  */ 
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px 25px;
+  text-decoration: none;
+}
+</head>
+  </style>
+<body style="background-color:beige;">
+    <div class="navbar">
+  <a href="/email"><u>Email Address</u></a>
+  <a href="/time"><u>Schedule</u></a>
+  <a href="/info"><u>Info about code</u></a>
+      
+</div>
+  <form name = "email", action = '/email', method = "post">
+    <p>
+      Please enter an email address to get a Professor's name. If you don't remember the complete email, you can still enter the first few characters to get some names that resemble that email!
+    </p>
+<p>
+  <input type = "text" name = "n_email" placeholder = "enter an email address"
+
+  <p>
+    <input type = "submit"  value = "Submit"/ >
+      
+  </p>
+  </form>
+  
+</body>
+  
+</html>

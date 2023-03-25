@@ -1,1 +1,2 @@
 # Professor-Website
+This project had many layers as it had to use flask and parse through a website to get the professors information. The HTML files had to all be in one folder labeled as 'templates' so the program would understand what html files to go through and extract upon the users request. This proejct brought a lot of variety to the website because it can be created and designed based on the programmer, and it was nice to see how much hmtl and css could be used to add detail to the website. 
